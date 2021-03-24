@@ -19,9 +19,9 @@ const useStyles = makeStyles(theme => ({
   title: {
     whiteSpace: 'nowrap',
     fontFamily: 'Bungee',
-    textShadow: '-1px -1px 1px black, 1px 1px 1px silver',
+    textShadow: `1px 1px 1px ${theme.palette.grey.[900]}, -1px -1px 1px ${theme.palette.grey.[700]}`,
     fontSize: '24pt',
-    color: theme.palette.common.white
+    color: theme.palette.grey.[200]
   },
   drawerInfoWrapper: {
     display: 'flex',
